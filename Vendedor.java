@@ -10,7 +10,7 @@ public class Vendedor extends Registrar{
       
         for(String c: sistema){
             if(c.equals(correoelectronico)){
-                System.out.println("El usuario ya esta en el ");
+                System.out.println("El correo electronico ya esta en el sistema");
                 break;
             
             }
@@ -21,24 +21,10 @@ public class Vendedor extends Registrar{
             }                     
         }
     }
-    
-    public String validarcorreo(){
-        for(String c: sistema){
-            if(c.equals(this.correoelectronico)){
-                
-            
-            }
-            
-            else {
-                this.sistema.add(correoelectronico);
-            
-            }   
-        }
-    }
+ 
     
     
-    
-    
+     
     
     
 }
